@@ -14,22 +14,22 @@
 	.fadeLine { 
     	margin: 25px 0;
     	height: 2px;
-    	background: #6C3DBF;
-    	background: -webkit-gradient(linear, 0 0, 100% 0, from(#84CEEB), to(#84CEEB), color-stop(50%, #6C3DBF));
+    	background: #2E2E2E;
+    	background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #b75d5d));
 		}
 
 	.headerLine { 
     	margin-bottom:25px 0;
     	height: 2px;
-    	background: #6C3DBF;
-    	background: -webkit-gradient(linear, 0 0, 100% 0, from(#84CEEB), to(#84CEEB), color-stop(50%, #6C3DBF));
+    	background: #b75d5d;
+    	background: -webkit-gradient(linear, 0 0, 100% 0, from(#84CEEB), to(#84CEEB), color-stop(50%, #b75d5d));
 		}
 
 	li {
 		padding-bottom: 10px;
 	}
 	body {
-		background-color: #84CEEB;
+		/*background-color: #BBBBBB;*/
 
 	}
 	header {
@@ -38,58 +38,117 @@
 	}
 	h2 {
 		font-size: large;
-		color: #6C3DBF;
+		color: white;
 	}
 	html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  #circle {
+    background: skin-tone.jpg;
+    background-size: cover;
+    width:100px;
+    height:100px;
+}
 </style>
 
 
 
 <ul class="nav justify-content-center" style="font-size: large">
 	<li class="nav-item">
-    <a class="nav-link active" style ="color: #6C3DBF" href="index.html">About</a>
+    <a class="nav-link active" style ="color: #b75d5d" href="index.html">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" style ="color: #6C3DBF" href="experience.html">Work Experience</a>
+    <a class="nav-link active" style ="color: #b75d5d" href="experience.html">Work Experience</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style ="color: #6C3DBF" href="#">Extracurricular</a>
+    <a class="nav-link" style ="color: #b75d5d" href="#">Extracurricular</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style ="color: #6C3DBF" href="#">Classes</a>
+    <a class="nav-link" style ="color: #b75d5d" href="classes.html">Classes</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style ="color: #6C3DBF" href="AlexanderWilliamsResume.pdf" download>Resume</a>
+    <a class="nav-link" style ="color: #b75d5d" href="AlexanderWilliamsResume.pdf" download>Resume</a>
   </li>
   <li class="nav-item">
-  	<a class="nav-link" style ="color: #6C3DBF" href="#">Contact</a>
+  	<a class="nav-link" style ="color: #b75d5d" href="#">Contact</a>
 </ul>
-<div class="headerLine"></div>
+<!--<div class="headerLine"></div>-->
 
-<div class="container" style="padding-top: 40px">
-	<div class="row">
-		<div class="col">
-			<header>
-				Alexander Williams
-			</header>
-			<h2>
-				Mostly a human, partially a software engineer
-			</h2>
-			<img src="headshot.jpg" style="height: 75%">
-		</div>
-		<div class="col">
-			<h3>
-				About
-			</h3>
-			<li style="color: black"> I am a recent College Grad in Electrical Engineering </li>
-			<li> On the side I have two minors, Computer Science, and Mathematics </li>
-			<li style="color: black"> In my free time I like reading, running, gaming, and various side projects </li>
-			<li> I don't like onions and it annoys me when people make a dish with them and say you can't taste the onion because I can always taste the onion </li>
-			<li><a href="whyNotPython.html" style="color: black"> I don't think the first programming language people should learn is python </a></li>
-	</div>
+<div style ="background-color: #b75d5d">
+  <div class="container" style="padding-top: 40px">
+  	<div class="row">
+  		<div class="col">
+  			<header>
+  				Alexander Williams
+  			</header>
+  			<h2>
+  				3 parts human, 1 part engineer
+  			</h2>
+  			<image src="images/headshot.jpg" style="height: 75%">
+  		</div>
+  		<div class="col">
+  			<h3>
+  				About
+  			</h3>
+  			<li> I am a recent College Grad in Electrical Engineering </li>
+  			<li> On the side I have two minors, Computer Science, and Mathematics </li>
+        <li> I currently work as a software engineer at netronome
+  			<li> In my free time I like reading, running, gaming, and various side projects </li>
+  			<li> I don't like onions and it annoys me when people make a dish with them and say you can't taste the onion because I can always taste the onion </li>
+  			<li><a href="whyNotPython.html" style="color: black"> I don't think the first programming language people should learn is python </a></li>
+  	 </div>
+    </div>
+  </div>
 </div>
 
-<div class="fadeLine"></div>
+
+  <div class="container" style="padding-top: 40px">
+    <ul class="nav justify-content-center" style="font-size: large; color: #b75d5d;"><h3>History in the working world</h3></ul>
+    <div class="row">
+      <div class="col-sm">
+          <image src="images/netronome_logo.jpg" style="width: 75%">
+      </div>
+      <div class="col-lg" style="font-size: large">
+        <li>Worked on developing tests using python and microcode used in network interface cards</li>
+        <li>Expanded the scope of Netronome's automated testing environment using buildbot to streamline
+        the software development process</li>
+      </div>
+    </div>
+    <div class="fadeLine"></div>
+
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="row align-items-center">
+          <image src="images/SMSGroup_logo.png" style="width: 50%">
+        </div>
+        <div class="row">
+          From Jan 2018 - May 2018
+        </div>
+      </div>
+      <div class="col-lg" style="font-size: large">
+        <li>Worked on programmable logic controllers to operate steel rolling mills</li>
+        <li>Reviewed and developed CAD drawings</li>
+        <li>Designed and programmed human machine interfaces</li>
+      </div>
+    </div>
+    <div class="fadeLine"></div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="row">
+          <image src="images/Coredial_logo.png" style="width: 75%">
+        </div>
+        <div class="row">
+          From May 2017 - Aug 2017
+        </div>
+      </div>
+      <div class="col-lg">
+        <li>Worked on Server Maintenance</li>
+        <li>Designed and built screen sharing website usng django back-end</li>
+      </div>
+    </div>
+    <div class="fadeLine"></div>
+  </div>
+<!--<div class="fadeLine"></div>-->
 
 
 
